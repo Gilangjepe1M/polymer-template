@@ -1,6 +1,6 @@
 {
-  "name": "ibc-app-solidity-template",
-  "version": "1.0.0",
+  "name": "jepe1mibc-app-solidity-template",
+  "version": "1.0.2",
   "description": "Template project to start building IBC enabled Solidity contracts, with Hardhat and Foundry support",
   "main": "index.js",
   "scripts": {
@@ -26,9 +26,11 @@
     "hardhat": "^2.19.5"
   },
   "dependencies": {
+    "@open-ibc/vibc-core-smart-contracts": "^4.0.22",
     "@openzeppelin/contracts": "^4.7.6",
     "axios": "^1.6.7",
     "dotenv": "^16.4.1",
+    "@open-ibc/ibc-sdk": "^0.0.7",
     "hardhat-verify": "^1.0.0"
   }
 }
